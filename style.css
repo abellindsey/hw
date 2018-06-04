@@ -1,0 +1,242 @@
+/* стиль для главного фрейма на фоне*/
+
+.background {
+    left: 350px;
+    position: absolute;
+    width: 900px;
+    height: 550px;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+
+}
+
+/*центральная область где все расположено*/
+
+.main_area {
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+/*белая область справа*/
+
+.inner_color {
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    width: 250px;
+    height: 300px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+/* расположение и размер графика graph.png*/
+
+.graph {
+    position: absolute;
+    top: 180px;
+    left: 805px;
+    width: 240px;
+    height: 95px;
+}
+
+/*Линии сверху и снизу графика*/
+
+#first_line {
+    position: absolute;
+    top: 170px;
+    left: 810px;
+}
+
+#second_line {
+    position: absolute;
+    top: 270px;
+    left: 810px;
+}
+
+/*общий стиль для картинок с облаками*/
+
+.clouds {
+    position: absolute;
+    top: 285px;
+    width: 35px;
+
+}
+
+/* конкретика для расположения*/
+
+#right_cloud {
+    left: 980px;
+
+}
+
+#middle_cloud {
+    left: 910px;
+}
+
+.sun {
+    position: absolute;
+    left: 840px;
+    top: 285px;
+    width: 35px;
+}
+
+/*дни недели общий стиль*/
+
+.main_days {
+    font-family: 'BioRhyme Expanded', serif;
+    color: #671720;
+    position: absolute;
+    top: 300px;
+    font-size: 11pt;
+}
+
+/*конкретика для расположения*/
+
+#right {
+    left: 980px;
+}
+
+#middle {
+    left: 910px;
+}
+
+#left {
+    left: 830px;
+}
+
+/* линии под днями недели и конкретика с расположением */
+
+.under_days {
+    position: absolute;
+    top: 330px;
+}
+
+#right_one {
+    left: 980px;
+}
+
+#middle_one {
+    left: 905px;
+}
+
+#left_one {
+    left: 830px;
+}
+
+/*температура*/
+
+#curr_temp {
+    font-family: 'BioRhyme Expanded', serif;
+    color: #671720;
+    position: absolute;
+    top: 40px;
+    left: 840px;
+    font-size: 41pt;
+}
+
+/*температура днем - стиль общий и конкретика по расположению*/
+
+.uppert {
+    font-family: 'BioRhyme Expanded', serif;
+    color: #671720;
+    position: absolute;
+    top: 330px;
+    font-size: 11pt;
+}
+
+#right_temp {
+    left: 980px;
+}
+
+#middle_temp {
+    left: 905px;
+}
+
+#left_temp {
+    left: 830px;
+}
+
+/*температура ночью с конкретикой*/
+
+.bott {
+    font-family: 'BioRhyme Expanded', serif;
+    color: black;
+    position: absolute;
+    top: 350px;
+    font-size: 11pt;
+}
+
+#right_temp.bott {
+    left: 980px;
+}
+
+#middle_temp.bott {
+    left: 905px;
+}
+
+#left_temp.bott {
+    left: 830px;
+}
+
+/* прозрачная область, где располагается информация о текущей погоде */
+
+#weather_background {
+    position: absolute;
+    top: 330px;
+    left: 550px;
+    width: 250px;
+    height: 70px;
+    border-radius: 0px 0px 0px 10px;
+    background-color: #671720;
+    opacity: 0.35;
+}
+
+.curr_weather {
+    position: absolute;
+    top: 260px;
+    left: 630px;
+    color: white;
+}
+
+/*информация о городе*/
+
+#city_background {
+    position: absolute;
+    top: 280px;
+    left: 550px;
+    width: 250px;
+    height: 50px;
+    border-radius: 0px 0px 0px 0px;
+    background-color: black;
+    opacity: 0.35;
+}
+
+.city {
+    position: absolute;
+    top: 340px;
+    left: 590px;
+    color: white;
+    font-size: 11pt;
+}
+
+/*расположение фото солнца*/
+
+#sun {
+    position: absolute;
+    top: 140px;
+    left: 620px;
+    height: 100px;
+
+}

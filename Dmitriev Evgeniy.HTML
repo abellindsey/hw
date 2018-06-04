@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8">
+    <title>Дмитриев Евгений 1 дз</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded" rel="stylesheet">
+</head>
+
+<body>
+    <!--главный размытый фрейм-->
+    <img class="background " src="tokyo_frame.jpg">
+    <!--  центральная область виджета  -->
+    <img class="main_area" src="tokyo.jpg">
+    <!--    див чтобы закрасить половину-->
+    <div class="inner_color"> </div>
+    <!--    линия над графиком-->
+    <hr id="first_line" width="230px" size="o,5px" color="#671720">
+    <!--    график-->
+    <img class="graph" src="graph.png">
+    <!--    линия под графиком-->
+    <hr id="second_line" width="230px" size="o,5px" color="#671720">
+    <!--    изображение облаков и солнца, расположены под графиком-->
+    <img id="right_cloud" class="clouds" src="suttcloud.png">
+    <img id="middle_cloud" class="clouds" src="suttcloud.png">
+    <img id="left_sun" class="sun" src="fkcngsun.png">
+    <!--    дни недели-->
+    <p id="right" class="main_days"> Sat </p>
+    <p id="middle" class="main_days"> Fri </p>
+    <p id="left" class="main_days"> Thu </p>
+    <!--    линии под днями недели-->
+    <hr id="left_one" class="under_days" width="50px" size="o,5px" color="#671720">
+    <hr id="middle_one" class="under_days" width="50px" size="o,5px" color="#671720">
+    <hr id="right_one" class="under_days" width="50px" size="o,5px" color="#671720">
+    <!--    дневная температура-->
+    <p id="right_temp" class="uppert">30 &#176;С </p>
+    <p id="middle_temp" class="uppert">27 &#176;С</p>
+    <p id="left_temp" class="uppert">25 &#176;С</p>
+    <!--    температура ночью-->
+    <p id="right_temp" class="bott">17 &#176;С</p>
+    <p id="middle_temp" class="bott">20 &#176;С</p>
+    <p id="left_temp" class="bott">19 &#176;С</p>
+    <!--    температура в данный момент-->
+    <p id="curr_temp">31 &#176;С</p>
+    <!--    див, в котором находится информация о городе и дате-->
+    <div id="city_background"></div>
+    <!--    див, в котором расположена информация о текущем состоянии дел на небосводе))-->
+    <div id="weather_background"></div>
+    <!--    надписи в дивах-->
+    <h1 class="curr_weather"> Sunny </h1>
+    <h2 class="city"> Saint-P. Wednesday, June - 20 </h2>
+    <!--    изображение солнца -->
+    <img src="sun1.png" id="sun">
+
+</body>
+
+</html>
